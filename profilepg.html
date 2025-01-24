@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<header>
+    <div class="logo-container">
+        <img src="imgaes/cf_logo_org-removebg-preview.png" alt="Company Logo" class="company-logo">
+    </div>
+</header>    
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Profile Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="profile-container">
+        <div class="profile-header">
+            <div class="profile-info">
+                <h1 class="profile-name">Rithik V Kumar</h1>
+                <p class="profile-about">
+                    Location- Velachery,Chennai.
+                </p>
+                <div class="profile-settings">
+                    <button class="settings-btn" onclick="openSettings()">Profile Settings</button>
+                </div> <br>
+                <div class="report-section">
+                    <button class="report-btn" onclick="reportProfile()">Report</button>
+                </div>
+            </div>
+            <div class="profile-picture">
+                <img src="imgaes/profile.jpg" alt="Profile Picture">
+            </div>
+        </div>
+        <div class="profile-stats">
+            <div class="stat">
+                <span class="count">3</span>
+                <span class="label">Posts</span>
+            </div>
+            <div class="stat">
+                <span class="count">2.3k</span>
+                <span class="label">Subscribers</span>
+            </div>
+            <div class="stat">
+                <span class="count">312</span>
+                <span class="label">Following</span>
+            </div>
+        </div>
+        <div class="posts-section">
+            <h2>Recent Posts</h2>
+            <div class="posts-list">
+                <!-- Post thumbnails with captions -->
+                <div class="post">
+                    <img src="imgaes/image1.jpg" alt="Post 1">
+                    <p class="caption">Steel Bottle of capacity 1 litre</p>
+                    <div class="post-interactions">
+                        <div class="likes">
+                            <i class="fas fa-thumbs-up icon"></i>
+                            <span class="like-count">120</span>
+                        </div>
+                        <div class="comments">
+                            <i class="fas fa-comment icon"></i>
+                            <span class="comment-count">45</span>
+                        </div>
+                    </div>                    
+                </div>
+                <div class="post">
+                    <img src="imgaes/image2.jpg" alt="Post 2">
+                    <p class="caption">Samsung Galaxy M21 ,Black color</p>
+                    <div class="post-interactions">
+                        <div class="likes">
+                            <i class="fas fa-thumbs-up icon"></i>
+                            <span class="like-count">120</span>
+                        </div>
+                        <div class="comments">
+                            <i class="fas fa-comment icon"></i>
+                            <span class="comment-count">45</span>
+                        </div>
+                    </div>                    
+                </div>
+                <div class="post">
+                    <img src="imgaes/image3.jpg" alt="Post 3">
+                    <p class="caption">lenova laptop,Windows 11 </p>
+                    <div class="post-interactions">
+                        <div class="likes">
+                            <i class="fas fa-thumbs-up icon"></i>
+                            <span class="like-count">120</span>
+                        </div>
+                        <div class="comments">
+                            <i class="fas fa-comment icon"></i>
+                            <span class="comment-count">45</span>
+                        </div>
+                    </div>                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Toggle Follow Button State
+        function toggleFollow() {
+            var followButton = document.getElementById("follow-btn");
+            if (followButton.innerHTML === "Follow") {
+                followButton.innerHTML = "Following";
+                followButton.style.backgroundColor = "#95a5a6";  // Change button color to gray
+            } else {
+                followButton.innerHTML = "Follow";
+                followButton.style.backgroundColor = "#3498db";  // Change back to original color
+            }
+        }
+
+        // Toggle Subscribe Button State
+        function toggleSubscribe() {
+            var subscribeButton = document.getElementById("subscribe-btn");
+            if (subscribeButton.innerHTML === "Subscribe") {
+                subscribeButton.innerHTML = "Subscribed";
+                subscribeButton.style.backgroundColor = "#95a5a6";  // Change button color to gray
+            } else {
+                subscribeButton.innerHTML = "Subscribe";
+                subscribeButton.style.backgroundColor = "#2ecc71";  // Change back to original color
+            }
+        }
+
+        function openSettings() {
+        alert('Profile Settings page opened');
+        }
+        
+    </script>
+    <script src="report.js"></script>
+</body>
+</html>

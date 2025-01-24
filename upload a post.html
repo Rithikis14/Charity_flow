@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload a Post</title>
+    <link rel="stylesheet" href="goma.css">
+</head>
+<body>
+
+    <div class="upload-container">
+        <h2>Create a Post</h2>
+        <form id="postForm">
+            <!-- Image Upload -->
+            <div class="upload-section">
+                <label for="imageUpload">Upload Image:</label>
+                <input type="file" id="imageUpload" accept="image/*">
+            </div>
+
+            <!-- Image Preview -->
+            <div id="imagePreview" class="image-preview">
+                <img src="" alt="Image Preview" id="previewImage">
+            </div>
+
+            <!-- Caption Input -->
+            <div class="caption-section">
+                <label for="caption">Write a Caption:</label>
+                <textarea id="caption" rows="4" placeholder="Say something about this image..."></textarea>
+            </div>
+
+            <!-- Submit Button -->
+            <div class="submit-section">
+                <button type="submit">Post</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="som.js"></script>
+</body>
+</html>

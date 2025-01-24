@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Template</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <div class="logo">
+                <img src="images/file__3_-removebg-preview.png"alt="logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#">Chat</a></li>
+                    <li><a href="profilepg.html">Profile</a></li>
+                    <li><a href="#">Notification</a></li>
+                    <li><a href="#">Setting</a></li>
+                </ul>
+            </nav>
+            <div class="rewards">
+                <h3>Rewards Progress</h3>
+                <p>Do more 9 donations</p>
+                <div class="progress-bar">
+                    <div class="progress"></div>
+                </div>
+                <p class="percentage">10%</p>
+            </div>
+            <div>
+                <p><br> Refer to a friend and earn rewards</p>
+            </div>
+            <div>
+                <p> <br>https://sample.edu/donate</p>
+            </div>
+        </div>
+        <div>
+    
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <img src="images/pic.jpg" alt="Profile Icon" class="avatar">
+            <div class="posts">
+                <div class="post">
+                    <div class="user-info">
+                        
+                        <span class="avatar"></span>
+                        <span class="username">rithik</span>
+                    </div>
+                    <img src="images/bottle2.jpg" alt="Post Image">
+
+                    <div class="post-description">
+                        <p> <b>Steel bottle of with capacity 1 litre</b></p>
+                    </div>
+                    <div class="post-actions">
+                       <div class="like-container">
+            <button class="like-btn" id="likeBtn-rithik" onclick="incrementLike('likeCount-rithik')">
+                👍 Like
+            </button>
+            <span id="likeCount-rithik">0</span> likes
+        </div>
+
+                        <span class="comment">💬</span>
+                        <span class="save">🔖</span>
+                    </div>
+                    <!-- Comment Section -->
+                    <div class="comments">
+                        <ul class="comment-list" id="comments-<username>"></ul>
+                        <form class="comment-form" onsubmit="addComment(event, '<username>')">
+                            <input type="text" id="comment-input-<username>" placeholder="Add a comment...">
+                            <button type="submit">Post</button>
+                      </form>
+                    </div>
+                    </div>
+                    <img src="images/sk.jpg" alt="Profile Icon" class="avatar1">
+                <div class="post1">
+                    <div class="user-info">
+                        <span class="avatar"></span>
+                        <span class="username">hari</span>
+                    </div>
+                    <img src="images/charger.jpg" alt="charger Image">
+                    <div class="post1-description">
+                        <p><b>This is a sleek black charger compatible with a variety of devices, offering fast charging capabilities</b></p>
+                    </div>
+                    <div class="post-actions">
+                        <div class="like-container">
+                            <button class="like-btn" id="likeBtn-hari" onclick="incrementLike('likeCount-hari')">
+                                👍 Like
+                            </button>
+                            <span id="likeCount-hari">0</span> likes
+                        </div>
+                        <span id="like-count-<username>">0</span>
+                        <span class="comment">💬</span>
+                        <span class="save">🔖</span>
+                </div>
+                    <!-- Comment Section -->
+                    <div class="comments">
+                        <ul class="comment-list" id="comments-<username>"></ul>
+                        <form class="comment-form" onsubmit="addComment(event, '<username>')">
+                            <input type="text" id="comment-input-<username>" placeholder="Add a comment...">
+                            <button type="submit">Post</button>
+                        </form>
+                    </div>
+                </div>
+                <img src="images/bae.jpg" alt="Profile Icon" class="avatar2">
+                <div class="post2">
+                    <div class="user-info">
+                        <span class="avatar"></span>
+                        <span class="username">sai</span>
+                    </div>
+                    <img src="images/waste .jpg" alt="Post Image">
+
+                    <div class="post2-description">
+                        <p><b> A strip of plastic, wood, or metal with a row of long, narrow parts along one side, which is used to arrange or hold the hair</b> </p>
+                    </div>
+                    <div class="post-actions">
+                        <div class="like-container">
+                            <button class="like-btn" id="likeBtn-sai" onclick="incrementLike('likeCount-sai')">
+                                👍 Like
+                            </button>
+                            <span id="likeCount-sai">0</span> likes
+                        </div>
+                        <span class="comment">💬</span>
+                        <span class="save">🔖</span>
+                    </div>
+                    <!-- Comment Section -->
+                    <div class="comments">
+                        <ul class="comment-list" id="comments-<username>"></ul>
+                        <form class="comment-form" onsubmit="addComment(event, '<username>')">
+                            <input type="text" id="comment-input-<username>" placeholder="Add a comment...">
+                            <button type="submit">Post</button>
+                      </form>
+                    </div>
+                </div>
+        </div>
+    </div>
+
+    <div class="live-events">
+        <div class="header">
+            <input type="text" placeholder="enter user..">
+        </div>
+        <div class="event">
+            <img src="images/file (13).jpg" alt="Event Image">
+            <p><b>Details:</b> A group of kids having a special event in sowcarpet about the values of recycle and reuse, to promote sustainable development. This event is oraganized on June 16 around 8:00 AM, it is conducted by an NGO group</p>
+            <br>
+        </div>
+        <div class="event">
+            <img src="images/file (12).jpg" alt="Event Image">
+            <p><b>Details:</b> A group of kids having a special event with some special guests and some special activities. The event was organized by the local community under the minsiter Seyd. This event is organized on July 1st around 2 PM.</p>
+            <br>
+      <div>
+            <img src="images/file (15).jpg" alt="Event Image">
+            <p><b>Details:</b> A group of kids having a special event with some special guests and some special activities. The event was organized by the local community under the minsiter Seyd. This event is organized on July 1st around 2 PM.</p>
+            <br>
+        </div>
+        <br>
+        <div>
+            <img src="images/file (16).jpg" alt="Event Image">
+            <p><b>Details:</b> A group of kids having a special event with some special guests and some special activities. The event was organized by the local community under the minsiter Seyd. This event is organized on July 1st around 2 PM.</p>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+    
+</body>
+</html>
+</html>
+<script>
+    function incrementLike(likeCountId) {
+            const likeCountElement = document.getElementById(likeCountId);
+            let currentCount = parseInt(likeCountElement.textContent);
+            currentCount += 1;
+            likeCountElement.textContent = currentCount;
+        }
+        let likeBtn = document.getElementById('likeBtn');
+let likeCount = document.getElementById('likeCount');
+let currentLikes = 0;
+
+// Listen for click event on the Like button
+likeBtn.addEventListener('click', function() {
+    currentLikes++;  // Increment the like count
+    likeCount.innerText = currentLikes;  // Update the displayed number of likes
+
+    // Optional: Send the new like count to the server (if required)
+    // sendLikeToServer(currentLikes);
+});
+
+/* Uncomment and modify the function below if you want to send the like count to the server
+function sendLikeToServer(likeCount) {
+    // You can use fetch or XMLHttpRequest to send the new like count to the server
+    fetch('update_likes.php', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({ likes: likeCount })
+    }).then(response => response.json())
+    .then(data => {
+        console.log('Server response:', data);
+    });
+}
+*/
+   function addComment(event, username) {
+    event.preventDefault();
+    
+    // Get the comment input field and the comment list for the post
+    const commentInput = document.getElementById('comment-input-${username}');
+    const commentList = document.getElementById('comments-${username}');
+    
+    // Get the comment value and trim any leading/trailing spaces
+    const commentText = commentInput.value.trim();
+    
+    // Only proceed if there is text in the comment field
+    if (commentText) {
+        // Create a new <li> element for the comment
+        const commentItem = document.createElement('li');
+        commentItem.textContent = commentText; // Set the text content to the comment
+        
+        // Append the comment item to the list
+        commentList.appendChild(commentItem);
+        
+        // Clear the comment input field after the comment is added
+        commentInput.value = '';
+    }
+    function incrementLike(likeCountId) {
+    // Get the current like count element by its ID
+    const likeCountElement = document.getElementById(likeCountId);
+    
+    // Convert the current count to a number and increment it by 1
+    let currentCount = parseInt(likeCountElement.textContent);
+    currentCount += 1;
+    
+    // Update the like count display with the new value
+    likeCountElement.textContent = currentCount;
+}
+}
+</script>

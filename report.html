@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Report Button with Modal</title>
+    <link rel="stylesheet" href="report.css">
+</head>
+<body>
+
+    <!-- Report Button -->
+    <button id="reportBtn" class="report-btn">Report</button>
+
+    <!-- Modal (Hidden initially) -->
+    <div id="reportModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" id="closeModal">&times;</span>
+            <h2>Report an Issue</h2>
+            <form id="reportForm"><br>
+                <label for="reportType">Select Issue:</label>
+                <select id="reportType" name="reportType" required>
+                    <option value="" disabled selected>Select an option</option>
+                    <option value="spam">Spam</option>
+                    <option value="abuse">Abuse</option>
+                    <option value="others">Others</option>
+                </select><br>
+
+                <label for="reportDetails">Details:</label>
+                <textarea id="reportDetails" name="reportDetails" placeholder="Describe the issue..." required></textarea><br>
+
+                <button type="submit" class="submit-btn">Submit Report</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Success Message (Hidden initially) -->
+    <div id="successMessage" class="success-message">
+        Report Sent Successfully!
+    </div>
+
+    <script src="report.js"></script>
+
+</body>
+</html>

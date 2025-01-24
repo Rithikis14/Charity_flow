@@ -1,0 +1,208 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(
+    to bottom,
+    #E5D3B3 50%,
+    #987554 50%
+    );
+    height: 280vh;
+}
+.img{
+    position: relative;
+    bottom:70px;
+    left: 20%;
+}
+.mainlogo{
+ position: relative;
+ bottom:10px;
+ right: 10px;
+}
+.spac{
+    position: relative;
+    right: 40px;
+}
+.panel{
+    position: relative;
+    left: 90%;
+    bottom: 80px;
+    font-weight: bold;
+    color: #393D32;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.mainpg{
+    position: relative;
+    left: 29.5%;
+    bottom: 17%;
+}
+.txtstyle{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #393D32;
+    font-size: 40px;
+ 
+}
+.txtstyl{
+    position: relative;
+    right: 27%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #E5D3B3;
+    font-size: 35px;
+}
+.txtstyle1{
+  
+    font-family: Arial, Helvetica, sans-serif;
+    color: #393D32;
+    font-size: 40px;
+}
+.txtstyle2{
+    color: #E5D3B3;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 170px;
+}
+.sub{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #393D32;
+    position: relative;
+    left: 200px;
+    bottom: 30px;
+}
+.btn{
+    position: relative;
+    bottom: 50px;
+    left: 13%;
+    display: inline-block;
+    background: #393D32;
+    color: #E5D3B3;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 20px;
+    margin: 30px 30px;
+    border-radius: 10px;
+    transition: background 0.5s;
+}
+.btn:hover{
+    background:#672714;
+}
+.bt{
+    position: relative;
+    bottom: 40px;
+    right: 2%;
+    display: inline-block;
+    background: #E5D3B3;
+    color: #987554;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 20px;
+    margin: 30px 30px;
+    border-radius: 10px;
+    transition: background 0.5s;
+}
+.bt:hover{
+    background:#672714;
+}
+.folloe{
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top:300px;
+}
+.line{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.8;
+}
+.spac2{
+    position: relative;
+    left: 15%;
+}
+.onemore{
+    position: relative;
+    left: 3%;
+    bottom: 58%;
+}
+.Boat{
+    position: relative;
+    bottom: 10%;
+    left: 65%;
+}
+.kanye{
+    position: relative;
+    bottom: 5%;
+}
+.sher{
+    position: relative;
+    bottom: 60%;
+    left: 80%;
+}
+.sami{
+    position: relative;
+    bottom: 65%;
+    left: 22%;
+}
+.footer{
+    font-family: Arial, Helvetica, sans-serif;
+    background:#393D32;
+    color: #E5D3B3;
+    font-size: 14px;
+    position: relative;
+    right: 0px;
+    bottom: 50%;
+    padding: auto;
+    padding-left: 10px;
+    padding-right: 0px;
+}
+.footer p{
+    color:#E5D3B3;
+}
+.footer h3{
+    color:#E5D3B3;
+    margin-bottom: 10px;
+}
+
+.footer-col-2,.footer-col-3,.footer-col-4{
+    position: relative;
+    top: 3%;
+    margin-top: -5%;
+    min-width: 100px;
+    margin-bottom: -10px;
+}
+.footer-col-1{
+    flex-basis: 30%;
+}
+.footer-col-2{
+    flex: 1;
+    text-align: center;
+}
+.footer-col-2 img{
+    width: 180px;
+    margin-bottom: 20px;
+}
+.footer-col-3, .footer-col-4{
+    flex-basis: 12%;
+    text-align: right;
+    position: relative;
+    bottom: 20%;
+}
+ul{
+    list-style-type: none;
+}
+.app-logo{
+    margin-top: 40px;
+}
+.app-logo img{
+    width: 100px;
+}
+.footer hr{
+    border: none;
+    background: #E5D3B3;
+    height: 1px;
+    margin: 20px 0;
+}
+.copyright{
+    text-align: center;
+}
+.menu-icon{
+    width: 28px;
+    margin-left: 20px;
+}
+

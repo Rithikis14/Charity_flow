@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Chat System</title>
+    <link rel="stylesheet" href="chatss.css">
+</head>
+<body>
+
+    <div class="chat-container">
+        <!-- Sidebar for users -->
+        <div class="chat-sidebar">
+            <h2>Active Users</h2>
+            <ul id="userList">
+                <!-- Online users will be listed here -->
+            </ul>
+        </div>
+
+        <!-- Main Chat Area -->
+        <div class="chat-main">
+            <!-- Chat messages -->
+            <div id="chatMessages" class="chat-messages">
+                <!-- Messages will appear here -->
+            </div>
+
+            <!-- Message input box -->
+            <div class="chat-input">
+                <input type="text" id="messageInput" placeholder="Type a message..." autocomplete="off">
+                <button id="sendMessageButton">Send</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.socket.io/4.0.1/socket.io.min.js"></script>
+    <script src="chajs.js"></script>
+</body>
+</html>
